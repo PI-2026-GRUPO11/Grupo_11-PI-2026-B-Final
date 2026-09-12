@@ -39,7 +39,8 @@ header {
 .menu-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .menu-links li a {
