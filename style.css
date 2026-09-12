@@ -142,3 +142,25 @@ footer p strong {
     font-size: 16px;
     letter-spacing: 1px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-links {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .menu-links li a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    section h2 {
+        font-size: 26px;
+    }
+}
