@@ -164,3 +164,21 @@ footer p strong {
         font-size: 26px;
     }
 }
+
+#banner { padding: 20px; max-width: 1200px; margin: 0 auto; }
+.carrossel { position: relative; max-width: 1200px; margin: 0 auto; overflow: hidden; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+.carrossel input[type="radio"] { display: none; }
+.carrossel-slides { display: flex; width: 300%; transition: transform 0.6s ease; }
+.slide { width: 33.333%; }
+.slide img { width: 100%; display: block; }
+#slide1:checked ~ .carrossel-slides { transform: translateX(0); }
+#slide2:checked ~ .carrossel-slides { transform: translateX(-33.333%); }
+#slide3:checked ~ .carrossel-slides { transform: translateX(-66.666%); }
+.navegacao { position: absolute; bottom: 15px; width: 100%; text-align: center; }
+.navegacao label { display: inline-block; width: 15px; height: 15px; background-color: rgba(255,255,255,0.6); border-radius: 50%; margin: 0 6px; cursor: pointer; transition: background-color 0.3s; }
+.navegacao label:hover { background-color: #fff; }
+#slide1:checked ~ .navegacao label[for="slide1"],
+#slide2:checked ~ .navegacao label[for="slide2"],
+#slide3:checked ~ .navegacao label[for="slide3"] { background-color: #c62828; }
+
+/
