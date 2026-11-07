@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 11 - PI 2026-B</title>
+    <link rel="stylesheet" href="../assets/css/estilo.css">
+    <script src="../assets/js/script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <nav class="menu">
+        <div class="logo">
+            <h1>Group 11</h1>
+        </div>
+        <ul class="menu-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre-nos">About Us</a></li>
+            <li><a href="#onde-vivemos">Where We Live</a></li>
+            <li><a href="#tcts">TCTs</a></li>
+        </ul>
+        <!-- BOTÃO DE IDIOMA E MODO NOTURNO -->
+        <div style="display: flex; gap: 10px; align-items: center;">
+            <button onclick="toggleTema()" style="padding: 5px 10px; cursor: pointer; border-radius: 5px; border: none; font-weight: bold;">🌙 Dark Mode</button>
+            <a href="../index.html" style="color: white; font-weight: bold; text-decoration: none;">PT</a> | 
+            <span style="color: white; font-weight: bold;">EN</span>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- ========== CARROSSEL DE IMAGENS ========== -->
+    <section id="banner">
+        <div class="carrossel">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+
+            <div class="carrossel-slides">
+                <div class="slide">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Toledo_-_vista_a%C3%A9rea.jpg/1280px-Toledo_-_vista_a%C3%A9rea.jpg" alt="Aerial view of Toledo">
+                </div>
+                <div class="slide">
+                    <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/agenda-2026-08/whatsapp_image_2026-08-17_at_18.14.07.jpeg?itok=kD_vE7TD" alt="Bon Odori Festival">
+                </div>
+                <div class="slide">
+                    <img src="https://www.toledo.pr.gov.br/sites/default/files/styles/apresentacao_imagens_noticia/public/2024-11/materia_virada_0.jpg?itok=ClOAj6qH" alt="Virada Cultural">
+                </div>
+            </div>
+
+            <div class="navegacao">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nos">
+        <h2>About Us</h2>
+        <p>
+            This section presents the life story of each member of Group 11.
+            Here you will find reports about birth, school trajectory,
+            historical facts, current moment, future perspectives, and
+            information about the place where each one lives.
+        </p>
+        <p>
+            Each member produced their own content autonomously,
+            with authorship evidenced in GitHub commits.
+        </p>
+
+        <h3 id="nascimento">Birth</h3>
+        <p>
+            Stories told from the perspective of a family member, in the first
+            person of the narrator-relative. Each member brings memories
+            about the day of their birth, the family's emotions, and the
+            meaning of that moment.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#nascimento">Geovana</a>
+            <a href="heloisa.html#nascimento">Heloisa</a>
+            <a href="leticia.html#nascimento">Leticia</a>
+        </div>
+
+        <h3 id="trajetoria">School Trajectory</h3>
+        <p>
+            Narrative in story format, with beginning, development, and current situation.
+            Each member talks about the schools they attended, the learning,
+            friendships, and challenges throughout their school life.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#trajetoria">Geovana</a>
+            <a href="heloisa.html#trajetoria">Heloisa</a>
+            <a href="leticia.html#trajetoria">Leticia</a>
+        </div>
+
+        <h3 id="fato-historico">Historical Fact</h3>
+        <p>
+            A historical fact that occurred on or near the birth date, with context.
+            Each member researches and presents a remarkable event that happened
+            in the world at the time they were born.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#fato-historico">Geovana</a>
+            <a href="heloisa.html#fato-historico">Heloisa</a>
+            <a href="leticia.html#fato-historico">Leticia</a>
+        </div>
+
+        <h3 id="momento-atual">Current Moment</h3>
+        <p>
+            Personal perspective on the current phase of the school trajectory.
+            Each member reflects on how the present moment is going, adaptation
+            to the new school, friendships, study routine, and the experiences they are living.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#momento-atual">Geovana</a>
+            <a href="heloisa.html#momento-atual">Heloisa</a>
+            <a href="leticia.html#momento-atual">Leticia</a>
+        </div>
+
+        <h3 id="perspectivas">Future Perspectives</h3>
+        <p>
+            Reflection on plans and expectations regarding studies.
+            Each member shares their dreams, goals, courses of interest,
+            professions they intend to pursue, and what they expect for the future.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#perspectivas">Geovana</a>
+            <a href="heloisa.html#perspectivas">Heloisa</a>
+            <a href="leticia.html#perspectivas">Leticia</a>
+        </div>
+    </section>
+
+    <section id="onde-vivemos">
+        <h2>Where We Live</h2>
+        <p>
+            This section presents information about the cities and neighborhoods
+            where each member of Group 11 lives. The content was
+            produced individually, based on research and personal experiences of each one.
+        </p>
+
+        <h3 id="municipio">City</h3>
+        <p>
+            Historical, geographic, cultural facts, or curiosities
+            about the city of residence. Each member researched and wrote about
+            the city where they live, highlighting aspects such as economy, culture,
+            tourist spots, and general characteristics.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#municipio">Geovana</a>
+            <a href="heloisa.html#municipio">Heloisa</a>
+            <a href="leticia.html#municipio">Leticia</a>
+        </div>
+
+        <h3 id="bairro">Neighborhood</h3>
+        <p>
+            Characteristics of the place, history, or remarkable aspects of
+            the neighborhood where they live. Each member describes
+            the neighborhood they live in, their routine, what exists nearby, and
+            what makes this place special.
+        </p>
+        <div class="integrantes">
+            <a href="geovana.html#bairro">Geovana</a>
+            <a href="heloisa.html#bairro">Heloisa</a>
+            <a href="leticia.html#bairro">Leticia</a>
+        </div>
+    </section>
+
+    <section id="tcts">
+        <h2>TCTs - Contemporary Cross-Cutting Themes</h2>
+        
+        <h3>Drawn Theme: Multiculturalism</h3>
+
+        <h4>Video about Cultural Diversity</h4>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qX1g0VVXkB0?si=FpzhYmx7Cu7t4a_R" title="Video about Cultural Diversity" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p>
+            Educational video about cultural diversity.
+        </p>
+          
+        <p>
+            The theme drawn for Group 11 was <strong>Multiculturalism</strong>,
+            focusing on the subtheme <strong>Cultural Diversity</strong>. This theme addresses
+            the importance of respecting differences, valuing diverse
+            cultures, and harmonious coexistence among different peoples who
+            form society.
+        </p>
+        <p>
+            Below we present some of the actions, projects, and activities
+            carried out in the city of Toledo - PR that promote diversity
+            culture and respect for local traditions.
+        </p>
+
+        <h4>Actions in our city</h4>
+        
+        <h4>1. FLIT (Toledo Literary Festival)</h4>
+        <p>
+            FLIT is one of the largest cultural events in Toledo, held
+            annually by the Municipal Department of Culture. In 2026, the 5th
+            edition took place between August 1st and 7th, at Praça Willy
+            Barth and the Municipal Public Library, with a completely free
+            schedule.
+        </p>
+        <p>
+            The event brings together a book fair, storytelling, workshops,
+            lectures, round tables, cultural presentations, and meetings
+            with authors. FLIT also promotes literary contests
+            <strong>Paulo Leminski</strong> (short stories) and <strong>Edy Braun</strong>
+            (chronicles and poetry), which in 2026 received more than 1,200
+            entries from authors across Brazil and other countries.
+        </p>
+        <p>
+            In addition, the event opens space for the community to participate
+            actively through <strong>Open Microphone</strong> and
+            <strong>FLIT Soiree</strong>, where anyone can
+            present poetry, music, theater, and other artistic manifestations.
+        </p>
+        <p>
+            🔗 <a href="https://www.toledo.pr.gov.br/noticias/cultura/5a-flit-tera-sete-dias-de-programacao-voltada-literatura-em-agosto" target="_blank">Check out the full schedule of the 5th FLIT on the Toledo City Hall website</a>
+        </p>
+
+        <h4>2. Bon Odori (Japanese Culture Festival)</h4>
+        <p>
+            Bon Odori is a celebration of Japanese culture that is already in
+            its 5th edition in Toledo. In 2026, the event took place on October 11,
+            at the headquarters of the Toledo Cultural and Sports Association
+            (CEATO), with free admission and 12 hours of programming.
+        </p>
+        <p>
+            The festival celebrates the Japanese tradition of honoring ancestors
+            (Obon) through circular dances, presentations of
+            <strong>taiko</strong> (Japanese drums), karaoke, cosplay,
+            cultural workshops, and a wide variety of typical dishes in
+            the Gastronomic Village.
+        </p>
+        <p>
+            The event included the participation of taiko groups from other
+            cities, such as Maringá, Londrina, and Cascavel, as well as the
+            Kotobuki Bon Odori dance group. In 2025, Bon Odori was officially
+            included in the Official Calendar of Events of the Municipality of Toledo
+            through Law No. 3,022.
+        </p>
+        <p>
+            🔗 <a href="https://www.toledonews.com.br/noticia/toledo-sera-palco-no-proximo-dia-11-de-outubro-da-5-edicao-do-bon-odori" target="_blank">Learn more about the 5th edition of Bon Odori</a>
+        </p>
+
+        <h4>3. Virada Cultural</h4>
+        <p>
+            Virada Cultural is an annual event that celebrates art and
+            culture in Toledo. In 2025, the 14th edition took place between
+            December 5th and 7th, with more than 40 attractions distributed across
+            different stages at Diva Paim Barth Ecological Park, Horto
+            Municipal, and the Municipal Theater.
+        </p>
+        <p>
+            The program included musical performances of various styles
+            (rock, gospel, reggae, samba), dances, children's theater,
+            graffiti interventions, rhyme battles, and
+            <strong>Viradinha Cultural</strong>, aimed especially at
+            children, with storytelling, games, and a cinema session.
+        </p>
+        <p>
+            One of the highlights of the edition was the appreciation of local artists,
+            who went through a public call and technical screening, in addition to
+            national attractions such as Pato Fu and Sambô. The event also featured
+            the <strong>Festival Emprega</strong>, which integrated culture and
+            employability in a single space.
+        </p>
+        <p>
+            🔗 <a href="https://www.toledo.pr.gov.br/noticias/cultura/14a-virada-cultural-toledo-abre-chamamento-para-credenciar-artistas-locais" target="_blank">Read about the call for artists for Virada Cultural</a>
+        </p>
+
+        <h4>4. Migrant Week</h4>
+        <p>
+            Migrant Week is an action to welcome and value
+            cultural diversity promoted in Toledo, especially through
+            the work of <strong>Embaixada Solidária</strong>, an organization
+            that works to welcome migrants, refugees, and stateless people.
+        </p>
+        <p>
+            In 2026, Migrant Week was officially included in the
+            Official Calendar of Events of the Municipality through
+            <strong>Law No. 3,080/2026</strong>, sanctioned on March 30.
+            The law provides for the annual holding of the event in the week comprising
+            June 15, with activities such as lectures, documentary screenings,
+            culinary workshops, multicultural lunches, photographic exhibitions,
+            conversation circles, and friendly football matches.
+        </p>
+        <p>
+            Toledo hosts migrants and refugees from 46 countries, including
+            Haiti, Senegal, Venezuela, Cuba, Syria, Afghanistan, and Ukraine,
+            which makes Migrant Week an important space for
+            integration and recognition of the contribution of these communities
+            to local culture and economy.
+        </p>
+        <p>
+            🔗 <a href="https://www.toledo.pr.gov.br/noticias/gabinete/migrantes-e-autistas-sao-contemplados-em-leis-municipais-sancionadas" target="_blank">Check out the news about the sanction of the Migrant Week Law</a>
+        </p>
+
+        <h4>Our Reflection</h4>
+        <p>
+              To be described as the subject progresses.
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p><strong>Group 11</strong> - Developed by Heloisa Farias, Leticia Reis, and Geovana Black</p>
+    <p>Integrative Project - PI 2026-B | HTML and CSS</p>
+    <p>Toledo - PR | 2026</p>
+</footer>
+
+</body>
+          </html>
