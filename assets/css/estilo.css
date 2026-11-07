@@ -252,3 +252,22 @@ footer p strong {
 #slide3:checked ~ .navegacao label[for="slide3"] {
     background-color: #c62828;
   }
+
+/* ========== MODO NOTURNO ========== */
+:root {
+    --fundo: #fff5d6; 
+    --texto: #333; 
+    --menu: #c62828;
+}
+html.tema-escuro {
+    --fundo: #121212; 
+    --texto: #fff; 
+    --menu: #1f1f1f;
+}
+body {
+    background-color: var(--fundo) !important;
+    color: var(--texto) !important;
+}
+header, footer {
+    background-color: var(--menu) !important;
+}
